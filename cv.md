@@ -10,7 +10,7 @@ ___
 ##### Briefly About Myself:
 I live and study in Belarus, in the city of Brest. I am a third-year student majoring in applied mathematics. I started studying programming 2.5 years ago. and now, it seems, I have finally decided that I will teach web development.
 
-My interest in programming is due to the desire to develop in the IT field and learn a lot of new things
+My interest in programming is due to the desire to develop in the IT  field and learn a lot of new things
 
 In this course, I want to go deeper into understanding Javascript and gain the knowledge that is necessary in order to find a job as a front-end developer. I think my biggest advantage is the ability to concentrate on things for a long time, especially if I really need it.
 ___
