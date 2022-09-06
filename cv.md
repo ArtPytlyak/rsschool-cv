@@ -22,7 +22,7 @@ ___
 + Editors: Sublime, VSCode, PyCharm community
 ___
 #### Education and courses:
-1. CS50 video course
+1. CS50 video  course
 2. JavaScript https://learn.javascript.ru/
 3. Python https://stepik.org/course/58852/promo and https://stepik.org/course/68343/promo
 4. Brest State University named after A.S. Pushkin. Specialty — applied mathematics
