@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <header>
+        <div class="central_l"></div>
+        <div class="central_r"></div>
+        <div class="header_pos">
+            <div class="logo">Art</div>
+
+            <nav class="header_nav">
+                <ul>
+                    <li><a class="nav" href="#about_me">About me</a></li>
+                    <li><a class="nav" href="#skills">Skills</a></li>
+                    <li><a class="nav" href="#Education">Education</a></li>
+                    <li><a class="nav" href="#">Language</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="cont">
+            <div class="header_name">
+                <img class="my_photo" src="img/me.jpg" alt="this is my photo">
+            </div>
+
+            <div class="basic_info">
+                <h1>Hello,<br>I'm Artyom<br>Pylyak</h1>
+            </div>
+        </div>
+
+        <ul class="header_cont">
+            <li class="conta"><h4>Location</h4><p>Brest, Belarus</p></li>
+            <li class="conta"><h4>Number</h4><p>+375 29 824 83 85</p></li>
+            <li class="conta"><h4>Email</h4><p>artm.pytlyak@mail.ru</p></li>
+            <li class="conta"><h4>GitHub</h4><p>@ArtPytlyak</p></li>
+        </ul>
+    </header>
+
+    <main class="main">
+        <!--ABOUT ME-->
+        <section class="About_me">
+            <div id="about_me" class="heading_me"><h2>Briefly About Myself:</h2></div>
+
+            <div class="basic_ab_me">
+                <p>I am a third-year student majoring in applied mathematics. I started studying programming 2.5 years ago. and now, it seems, I have finally decided that I will teach web development.
+
+                    My interest in programming is due to the desire to develop in the IT field and learn a lot of new things</p>
+            </div>
+        </section>
+        <!--MY SKILLS-->
+        <section class="skills">
+            <div id="skills" class="heading_skills"><h2>Skills:</h2></div>
+
+            <div class="basic_skills">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>Editors: Sublime, VSCode, PyCharm community</li>
+                </ul>
+            </div>
+        </section>
+        <!--MY EDUCATION-->
+        <section class="Education">
+            <div id="Education" class="heading_Education"><h2>Education:</h2></div>
+
+            <div class="basic_Education">
+                <ul>
+                    <li><a class="link_edu" href="https://www.brsu.by">Brest State University named after A.S. Pushkin. Specialty — applied mathematics</a></li>
+                    <li><a class="link_edu" href="https://www.youtube.com/playlist?list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5">CS50 video course</a></li>
+                    <li><a class="link_edu" href="https://learn.javascript.ru/">JavaScript</a></li>
+                    <li><a class="link_edu" href="https://stepik.org/course/68343/promo">Python</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--MY LANGUAGE-->
+        <section class="Language">
+            <div id="Language" class="heading_Language"><h2>Language:</h2></div>
+
+            <div class="basic_Language">
+                <p>My English level is A2.
+
+                    I haven’t had any speaking practice with native speakers, but I try to watch content in English and actively study it</p>
+            </div>
+        </section>
+
+        <!--exemple code-->
+        <section class="example_code">
+            <div class="heading_example"><h2>Code example:</h2></div>
+
+            <div class="code_itself">
+                <pre class="pre">
+                    <code class="code">
+    const arr = [1,2,3,4,5,6,7,7,8,6,10];
+    const findDupes = (arr) => {
+    const observed = {};  for(let i = 0; i < arr.length; i++) {
+        if(observed[arr[i]]) {
+        return arr[i]
+        } else {
+        observed[arr[i]] = arr[i];
+        }
+    }
+                        
+    return false;
+    }
+    console.log(findDupes(arr));                                            
+                    </code>
+                </pre>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="year">2022</div>
+        <div class="git"><a href="https://github.com/ArtPytlyak">GitHub</a></div>
+        <div class="rsschool"><a href="https://rs.school/js/">
+            <img src="img/rs_school_js.svg" alt="ссылка на rsschool">
+        </a></div>
+    </footer>
+</body>
+</html>
